@@ -147,3 +147,17 @@
     justify-content: end;
     background-color: black;
 }
+.hero-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.hero-bottom img{
+    height: 500px;
+
+}
+.hero-bottom p{
+    font-size: 22px;
+}
