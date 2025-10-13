@@ -151,7 +151,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
     padding: 32px;
 }
 .hero-bottom img{
@@ -160,4 +160,33 @@
 }
 .hero-bottom p{
     font-size: 22px;
+    line-height: 30px;
 }
+.earn-left{
+    background-color: black;
+    padding: 25px;
+}
+.earn-left h2{
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    line-height: 32px;
+}
+.earn-left h5{
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.earn-left h1{
+    color: rgb(107, 107, 107);
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 32px;
+}
+.earn-left p{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(107, 107, 107);
+}
+
