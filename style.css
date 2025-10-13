@@ -162,9 +162,12 @@
     font-size: 22px;
     line-height: 30px;
 }
+#earn{
+    display: flex;
+}
 .earn-left{
-    background-color: black;
-    padding: 25px;
+    background-color: rgb(34, 34, 34);
+    padding: 40px;
 }
 .earn-left h2{
     font-size: 25px;
@@ -174,8 +177,9 @@
 }
 .earn-left h5{
     color: white;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    color: gainsboro;
 }
 
 .earn-left h1{
@@ -189,4 +193,24 @@
     line-height: 20px;
     color: rgb(107, 107, 107);
 }
-
+.earn-right{
+    display: flex;
+    background-color: rgb(219, 219, 219);
+}
+.earn-right-left{
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: center;
+}
+.earn-right-right{
+    flex-direction: column;
+}
+#compare{
+    background-color: black;
+    color: white;
+}
+.compare-heading{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
