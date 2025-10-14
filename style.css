@@ -325,3 +325,6 @@
 .join-right i{
     font-size: 25px;
 }
+#footer{
+    display: flex;
+}
