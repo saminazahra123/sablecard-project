@@ -211,6 +211,117 @@
 }
 .compare-heading{
     text-align: center;
-    font-size: 40px;
+    font-size: 38px;
     padding-top: 30px;
+    padding-bottom: 40px;
+}
+.sable{
+    display: flex;
+    justify-content: end;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.sable p{
+    color: #10ACA2;
+    font-size: 17px;
+}
+.lines-potion{
+    padding: 25px 80px;
+}
+.lines{
+    display: flex;
+    padding: 20px 0px;
+}
+.lines i{
+    font-size: 20px;
+}
+.lines p{
+    font-size: 18px;
+    line-height: 22px;
+}
+.line-left{
+    width: 60%;
+}
+.line-center{
+    width: 25%;
+}
+.line-right{
+    width: 15%;
+}
+.lines button{
+    background-color: #6FDBD4;
+    border-radius: 15px;
+    color: black;
+    padding: 12px;
+    border: none;
+}
+.number-potion{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.numb{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px 80px 0px;
+}
+.number-left h1{
+    font-size: 51px;
+    color: rgb(5, 110, 100);
+    margin-bottom: 10px;
+}
+.number{
+    width: 30%;
+    display: flex;
+    gap: 30px;
+    background-color: rgb(70, 70, 70);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+#join{
+    background-color: black;
+    color: white;
+}
+.join-potion{
+    display: flex;
+    margin: 0px 80px;
+    height: 400px;
+    gap: 30px;
+    justify-content: center;
+    background-image: url(images/img-18.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.join-left h2{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: lighter;
+}
+.join-left h1{
+    display: inline;
+    font-size: 37px;
+    line-height: 49px;
+}
+.join-right{
+    display: flex;
+    gap: 20px;
+}
+.join-right button{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+    border: none;
+    align-items: center;
+    align-items: end;
+}
+.join-right i{
+    font-size: 25px;
 }
