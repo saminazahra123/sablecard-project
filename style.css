@@ -16,6 +16,7 @@
     display: flex;
     justify-content: end;
     padding: 30px;
+    margin-right: 20px;
  }
  .header-button input{
     padding: 10px;
@@ -97,7 +98,7 @@
     padding: 15px;
 }
 .hero-left{
-    width: 280px;
+    width: 40%;
 }
 .hero-left h5{
     font-size: 17px;
@@ -113,7 +114,7 @@
 }
 
 .hero-right{
-    width: 280px;
+    width: 40%;
 }
 .hero-right h5{
     font-size: 17px;
@@ -131,7 +132,8 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
-    padding-top: 15px;
+    padding: 30px;
+    padding-top: 30px;
 }
 .hero-logos img{
     /* width: 80px; */
@@ -283,6 +285,7 @@
 #join{
     background-color: black;
     color: white;
+    padding-bottom: 40px;
 }
 .join-potion{
     display: flex;
@@ -327,4 +330,149 @@
 }
 #footer{
     display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 25px;
+}
+#footer h2{
+    font-size: 26px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+#footer p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(218, 216, 216);
+}
+#footer i{
+    font-size: 25px;
+}
+/* .hr{
+    padding: 30px;
+} */
+#last{
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+#last p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(173, 173, 173);
+}
+@media screen and (max-width : 890px) and (min-width : 700px){
+    .header-logo{
+        margin: 0px 25px;
+        gap: 30%;
+    }
+    .links a{
+        margin: 0px 10px;
+    }
+    .earn-right img{
+        width: 180px;
+        margin-right: 6px;
+        height: 190px;
+    }
+    .hero-top img{
+        width: 600px;
+        height: 490px;
+    }
+    .compare-heading{
+        font-size: 20px;
+    }
+    .line-left{
+    width: 50%;
+}
+.line-center{
+    padding-left: 15px;
+    width: 25%;
+}
+.line-right{
+    padding-left: 15px;
+    width: 25%;
+}
+.line-left p{
+    font-size: 16px;
+}
+}
+@media screen and (max-width : 700px) and (min-width : 600px){
+    .header-logo{
+        margin: 0px 20px;
+        gap: 20%;
+    }
+    .links a{
+        margin: 0px 10px;
+    }
+    .earn-right{
+        align-items: center;
+    }
+    .earn-right img{
+        width: 100px;
+        margin-right: 6px;
+        height: 90px;
+        margin-bottom: 15px;
+    }
+    .hero-top img{
+        width: 500px;
+        height: 450px;
+    }
+    .hero-bottom img{
+        width: 300px;
+        height: 290px;
+    }
+    .compare-heading{
+        font-size: 18px;
+    }
+
+    .hero-one{
+        gap: 80px;
+        padding: 30px;
+    }
+    .line-left{
+    width: 45%;
+}
+
+.line-center{
+    padding-left: 15px;
+    width: 30%;
+}
+.line-right{
+    padding-left: 15px;
+    width: 30%;
+}
+.lines-potion{
+    padding: 15px 70px;
+}
+.lines button{
+    padding: 6px;
+    border: none;
+}
+.number{
+    width: 40%;
+    display: flex;
+    gap: 10px;
+}
+.join-left{
+    display: none;
+}
+#footer{
+    padding: 20px;
+}
+.footer-one{
+    width: 31%;
+}
+.footer-one p{
+    font-size: 15px;
+}
+.footer-one h2{
+    font-size: 22px;
+}
+.footer-one i{
+    font-size: 14px;
+}
+#last{
+    padding: 50px;
+}
 }
