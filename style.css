@@ -409,9 +409,9 @@
         align-items: center;
     }
     .earn-right img{
-        width: 100px;
+        width: 120px;
         margin-right: 6px;
-        height: 90px;
+        height: 100px;
         margin-bottom: 15px;
     }
     .hero-top img{
@@ -475,4 +475,77 @@
 #last{
     padding: 50px;
 }
+}
+@media screen and (max-width : 600px) and (min-width : 450px){
+     .header-logo{
+        margin: 0px 20px;
+        gap: 10%;
+    }
+    .links a{
+        margin: 0px 10px;
+    }
+    #herosection{
+        padding: 20px 10px;
+        background-color: rgb(54, 54, 54);
+    }
+    .hero-logos{
+        gap: 20px;
+    }
+    .hero-top img{
+        width: 300px;
+        height: 300px;
+    }
+    .hero-bottom img{
+        width: 270px;
+        height: 250px;
+    }
+    #earn{
+        flex-direction: column;
+    }
+    .compare-heading{
+        font-size: 14px;
+    }
+    .sable{
+        display: none;
+    }
+    .lines-potion{
+        padding: 15px 30px;
+    }
+    .lines button{
+        display: none;
+    }
+    .number-potion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-potion{
+        margin: 0px 50px;
+    }
+    .number{
+        width: 80%;
+        display: flex;
+        gap: 10px;
+    }
+    .join-left{
+        display: none;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #footer br{
+        display: none;
+    }
+
+    #last{
+        padding: 50px;
+    }
+}
+@media screen and (max-width : 450px) and (min-width : 250px){
+     .header-logo{
+        margin: 0px 20px;
+        gap: 10%;
+    }
+    .links a{
+        margin: 0px 10px;
+    }
 }
