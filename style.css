@@ -24,6 +24,9 @@
     border-radius: 20px;
 
  }
+ .header-button input:hover{
+    outline: none;
+ }
  .header-logo{
     display: flex;
     justify-content: left;
@@ -63,7 +66,10 @@
     border-radius: 20px;
     cursor: pointer;  
     margin-bottom: 35px;  
-}    
+} 
+.header-heading button:hover{
+    background-color: #10ACA2;
+}   
 .header-bottom{
     display: flex;
     gap: 9px;
@@ -257,6 +263,9 @@
     color: black;
     padding: 12px;
     border: none;
+}
+.lines button:hover{
+    background-color: #10ACA2;
 }
 .number-potion{
     display: flex;
