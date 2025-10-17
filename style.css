@@ -540,10 +540,13 @@
         padding: 50px;
     }
 }
-@media screen and (max-width : 450px) and (min-width : 250px){
+@media screen and (max-width : 450px) and (min-width : 340px){
      .header-logo{
         margin: 0px 6px;
         gap: 5%;
+    }
+    #main{
+        height: 550px;
     }
     .links a{
         margin: 0px 10px;
@@ -560,4 +563,226 @@
         width: 230px;
         height: 230px;
     }
+    .hero-heading h2{
+        font-size: 22px;
+    }
+    #herosection{
+    padding: 20px 20px;
+}
+.hero-heading h2{
+    color: white;
+}
+.hero-left h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+.hero-left p{
+    font-size: 15px;
+}
+.hero-right h5{
+    font-size: 16px;
+}
+.hero-right p{
+    font-size: 15px;
+}
+.hero-logos{
+    gap: 30px;
+}
+.hero-bottom p{
+    font-size: 19px;
+    line-height: 25px;
+}
+    #earn{
+        flex-direction: column;
+    }
+    .earn-right img{
+        width: 120px;
+        margin-right: 6px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+.compare-heading{
+        font-size: 14px;
+    }
+    .sable{
+        display: none;
+    }
+    .lines-potion{
+        padding: 15px 30px;
+    }
+    .lines button{
+        display: none;
+    }
+    .number-potion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-potion{
+        margin: 0px 50px;
+    }
+    .number{
+        width: 80%;
+        display: flex;
+        gap: 10px;
+    }
+    .join-left{
+        display: none;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #footer br{
+        display: none;
+    }
+
+    #last{
+        padding: 50px;
+    }
+
+}
+
+
+
+@media screen and (max-width : 340px) and (min-width : 240px){
+     .header-logo{
+        margin: 0px 6px;
+        gap: 5%;
+    }
+    #main{
+        height: 500px;
+    }
+    .logo h1{
+        font-size: 19px;
+    }
+    .links a{
+        margin: 0px 5px;
+        font-size: 10px;
+    }
+    .hero-logos{
+        gap: 10px;
+    }
+    .header-bottom{
+        gap: 20px;
+    }
+    .hero-top{
+        border-radius: 10px;
+    }
+    .hero-top img{
+        width: 250px;
+        height: 240px;
+    }
+    .hero-bottom img{
+        display: none;
+    }
+    .header-heading h1{
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+    /* font-weight: bolder;
+    margin-bottom: 20px;
+    color: white; */
+}
+    .hero-heading h2{
+        font-size: 22px;
+    }
+    #herosection{
+    padding: 20px 20px;
+}
+.hero-heading h2{
+    color: white;
+    font-size: 20px;
+}
+.hero-one{
+    flex-direction: column;
+    padding: none;
+    justify-content: center;
+}
+.hero-left h5{
+    font-size: 16px;
+    line-height: 24px;
+}
+.hero-left p{
+    font-size: 15px;
+}
+.hero-right h5{
+    font-size: 16px;
+}
+.hero-left{
+    width: 85%;
+    padding-bottom: 30px;
+}
+.hero-right{
+    width: 85%;
+
+}
+.hero-right p{
+    font-size: 15px;
+}
+.hero-logos{
+    gap: 30px;
+}
+.hero-bottom p{
+    font-size: 19px;
+    line-height: 25px;
+}
+    #earn{
+        flex-direction: column;
+    }
+    .earn-right img{
+        width: 120px;
+        margin-right: 6px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+.compare-heading{
+        font-size: 14px;
+    }
+    .sable{
+        display: none;
+    }
+    .lines-potion{
+        padding: 15px 30px;
+    }
+    .lines button{
+        display: none;
+    }
+    .number-potion{
+        flex-direction: column;
+        align-items: center;
+    }
+    .join-potion{
+        margin: 0px 50px;
+    }
+    .number{
+        width: 80%;
+        display: flex;
+        gap: 10px;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #footer br{
+        display: none;
+    }
+
+    #last{
+        padding: 30px;
+    }
+    #join{
+        display: none;
+    }
+
+    #footer h2{
+    font-size: 21px;
+    line-height: 25px;
+}
+#footer p{
+    font-size: 13px;
+    line-height: 20px;
+}
+#footer i{
+    font-size: 18px;
+}
 }
